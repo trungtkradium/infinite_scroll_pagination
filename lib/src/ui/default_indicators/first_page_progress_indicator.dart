@@ -5,7 +5,9 @@ class FirstPageProgressIndicator extends StatelessWidget {
   Widget build(BuildContext context) => const Padding(
         padding: EdgeInsets.all(32),
         child: Center(
-          child: CircularProgressIndicator(),
+          child: CircularProgressIndicator(
+            color: Color(0xFF445579),
+          ),
         ),
       );
 }

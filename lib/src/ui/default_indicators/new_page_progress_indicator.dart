@@ -8,6 +8,8 @@ class NewPageProgressIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => const FooterTile(
-        child: CircularProgressIndicator(),
+        child: CircularProgressIndicator(
+          color: Color(0xFF445579),
+        ),
       );
 }
